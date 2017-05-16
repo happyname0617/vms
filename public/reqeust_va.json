@@ -1,0 +1,7 @@
+{
+    'id':'20170515001',
+    'author':bskim,
+    'approvalChain':{'check':['bskim','malte'],'approval':['yshur'],
+    'submitDate':12345,
+    'dates':['2017/07/03 F','2017/07/04 M']
+}

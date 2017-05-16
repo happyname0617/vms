@@ -1,0 +1,29 @@
+html
+    head
+    body
+        h1 vacation management system
+        ul
+            li my vacations overview
+            li requst vacation approval
+            li requst sick leave approval
+            li requst overtime compenstaion approval
+            li show calendar vieww
+            li show approvals status
+        div request vacation approval
+            form(action='/request/vacation' method='post')
+                p
+                    input(type='text' name='username' value="bskim" readonly)
+                p
+                    input(type='date' name='date')
+                    input(type='radio' name='datetype' value='full' checked)
+                    label(for='full') full
+                    input(type='radio' name='datetype' value='half-morning')
+                    label(for='half-morning') half-morning
+                    input(type='radio' name='datetype' value='half-afternoon')
+                    label(for='half-afternoon') half-afternoon
+                p
+                    input(type='textarea' name='comment' placeholder='description')
+                p
+                    input(type='submit')
+            
+        
